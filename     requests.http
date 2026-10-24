@@ -1,0 +1,16 @@
+### Register a student
+POST http://localhost:8080/register
+Content-Type: application/json
+
+{
+  "name": "Test Student",
+  "email": "student.test@example.com",
+  "college": "Chennai Institute of Technology",
+  "department": "Information Technology"
+}
+
+### View all registrations
+GET http://localhost:8080/registrations
+
+### View registration by ID
+GET http://localhost:8080/registrations/1
